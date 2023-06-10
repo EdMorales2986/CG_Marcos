@@ -1,7 +1,7 @@
 package graficos;
 import javax.swing.*;
 
-// Eduardo Morales 29.633.652
+//Eduardo Morales 29.633.652
 
 public class creandoMarcos {
 
@@ -15,11 +15,13 @@ public class creandoMarcos {
 
 class miMarco extends JFrame {
 	
+	private static final long serialVersionUID = 1L;
+
 	public miMarco() {
 		//setSize(500, 300);
 		//setLocation(700,350);
 		setBounds(500,300,550,250);
 		//setExtendedState(JFrame.MAXIMIZED_BOTH);
-		setTitle("Mi primera venta");
+		setTitle("Mi primera ventana");
 	}
 }
